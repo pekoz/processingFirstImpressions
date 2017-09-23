@@ -12,7 +12,7 @@ void draw() {
   frameRate(5);
   stroke(255, 0, 0, oPacitY);
   fill(255, 0, 0, oPacitY);
-  translate(350, 350);
+  translate(width/2, height/2);
   rotate(rotAngle++);
   translate(rotAngle, 2*rotAngle);
   ellipse(0, 0, 20, 10);
